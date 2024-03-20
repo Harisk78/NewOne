@@ -1,10 +1,13 @@
 import './App.css';
-import './Header.js'
+import Content from './Content.js';
+import Header from './Header.js'
+
 
 function App() {
   return (
     <div>
       <Header/>
+      <Content/>
     </div>
   );
 }
